@@ -4,16 +4,12 @@
 '''
 
 #  Write the table of given number 
-# a = int(input("Enter the Number :"))
-# i=0
-# while(i<=10):
+a = int(input("Enter the Number :"))
+i=0
+while(i<=10):
 
-#     print(f"{a} x {i} = ",i*a)
-#     i+=1
-
-
-
-
+    print(f"{a} x {i} = ",i*a)
+    i+=1
 
 
 #  Calculates the sum of all numbers from 1 to a user-defined
@@ -29,19 +25,15 @@ print(total)
 
 #  Count the total digit in given number
 num = int(input("Enter the Number :"))
-
-
 count =0
 n = abs(num)
 
 if n==0:
     count =1
 else:
-
     while(n>0):
         n //= 10
         count +=1
-
 print(f"Total number of digits :", count)
 
 
@@ -55,7 +47,6 @@ print ( "All Prime Numbers Are:",a)
 
 
 # Fibonacci Sequence
-
 num = int(input("Enter the Number :"))
 a = 0
 b=1
@@ -77,4 +68,5 @@ while i <= 10:
         print(f"{result}", end="\t")
         j += 1
     print() 
+
     i += 1
